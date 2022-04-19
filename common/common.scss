@@ -517,3 +517,32 @@ html body #main-outlet {
   background-color: var(--primary-low-mid);
   border-radius: 0.5em;
 }
+
+.custom-homepage-columns .col {
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    padding: 2em 2em 1em;
+    background-color: var(--secondary);
+    border-top: 8px solid #3877e5;
+    border-left: 1px solid rgba(var(--primary-rgb), 0.2);
+    border-right: 1px solid rgba(var(--primary-rgb), 0.2);
+    border-bottom: 1px solid rgba(var(--primary-rgb), 0.2);
+}
+.custom-homepage-columns .col .header-wrapper {
+    color: var(--primary);
+    background-color: transparent;
+}
+.custom-homepage-columns .header-wrapper {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    padding: 0px;
+}
+.custom-homepage-columns .topic-list .topic-list-item:nth-child(odd) {
+    background: transparent;
+}
+.showcased-topic-list .topic-excerpt {
+    display: none;
+}
